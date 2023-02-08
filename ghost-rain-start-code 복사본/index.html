@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Udemy - Ghost Rain</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/73273980ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap");
+    </style>
+  </head>
+  <body>
+    <div class="title">
+      <div class="logo">
+        <i class="fa-solid fa-heart fa-2x" id="left-heart"></i>
+        <h1 class="game_name">Ghost Rain</h1>
+        <i class="fa-solid fa-heart fa-2x" id="right-heart"></i>
+      </div>
+    </div>
+
+    <div class="game_space">
+      <div class="time_score">
+        <span class="time">
+          <p>Time</p>
+          <p id="timer">0:30</p>
+        </span>
+
+        <span class="score">
+          <p>score</p>
+          <p id="got">0</p>
+          <p class="score_slash">/</p>
+          <p class="goal">10</p>
+        </span>
+      </div>
+
+      <div id="bg">
+        <div id="hero"></div>
+      </div>
+
+      <div class="life">
+        <p class="life_title">life:</p>
+        <div class="heart">
+          <span id="heart1">
+            <i class="fa-solid fa-heart fa-2x"></i>
+          </span>
+          <span id="heart2">
+            <i class="fa-solid fa-heart fa-2x"></i>
+          </span>
+          <span id="heart3">
+            <i class="fa-solid fa-heart fa-2x"></i>
+          </span>
+          <span id="heart4">
+            <i class="fa-solid fa-heart fa-2x"></i>
+          </span>
+          <span id="heart5">
+            <i class="fa-solid fa-heart fa-2x"></i>
+          </span>
+        </div>
+      </div>
+      <div class="start">
+        <button id="start_button">START</button>
+      </div>
+    </div>
+
+    <script src="js/settings.js"></script>
+    <script src="js/ghost.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>

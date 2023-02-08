@@ -1,0 +1,138 @@
+#bg {
+  background-color: black;
+  display: flex;
+  justify-content: space-between center;
+  align-items: center;
+
+  position: relative;
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
+
+  background: url("./images/bg.png") no-repeat;
+  background-size: cover;
+}
+
+#hero {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+
+  width: 35px;
+  height: 54px;
+
+  background-image: url("./images/hero.png");
+  background-repeat: no-repeat;
+}
+
+.stop {
+  background-position: 0px 0px;
+}
+
+.right {
+  background-position: -105px 0px;
+}
+
+.left {
+  background-position: -70px 0px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  height: 110px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#left-heart {
+  filter: invert(98%) sepia(33%) saturate(4538%) hue-rotate(153deg)
+    brightness(105%) contrast(79%);
+}
+
+#right-heart {
+  filter: invert(98%) sepia(33%) saturate(4538%) hue-rotate(153deg)
+    brightness(105%) contrast(79%);
+}
+
+.game_name {
+  margin: 0 10px;
+}
+
+.game_space {
+  margin: 40px 0 0 0;
+  vertical-align: middle;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.time_score {
+  font-size: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.time {
+  padding: 0 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#timer {
+  height: 46px;
+  padding: 0 0 0 25px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px 0 0;
+}
+
+#got {
+  padding: 0 0 0 25px;
+}
+
+.life {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin: 0 15px 0 0;
+}
+
+.life_title {
+  font-size: 30px;
+  margin: 0 5px 0 0;
+}
+
+.heart {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  filter: invert(60%) sepia(44%) saturate(4738%) hue-rotate(326deg)
+    brightness(101%) contrast(96%);
+}
+
+.start {
+  text-align: center;
+}
+
+#start_button {
+  padding: 15px 30px;
+  font-size: 30px;
+  font-family: "Mochiy Pop One", sans-serif;
+  border-radius: 30px;
+  background-color: lightskyblue;
+}
